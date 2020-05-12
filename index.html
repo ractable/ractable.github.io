@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ractable</title>
     <link rel="icon" type="image/png" href="resources/icons/favicon.png">
 </head>
@@ -24,16 +25,15 @@
         margin: 0;
     }
 
-    .title-wrapper {
-        height: 100vh;
-    }
-
     .title {
-        display: block;
         margin: 0 0 12px 0;
     }
 
     .v-h-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         display: flex;
         justify-content: center;
         align-items: center;
